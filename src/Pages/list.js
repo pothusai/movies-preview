@@ -55,11 +55,11 @@ function Lists() {
             >
 
             </PageHeader>
-            {/* <Carousel >
+            <Carousel >
                 <div>
                     <img src={imgurl} style={{ width: "100%" }} />
                 </div>
-            </Carousel> */}
+            </Carousel>
             <h1>Ternding</h1>
             {visible && <div>
                 preview-data
