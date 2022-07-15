@@ -3,4 +3,6 @@ task list project
 to start the application use below commands
 
 npm install
+
 npm start
+npm run server
