@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <input id="uname" />
+        <input id="password" type="password"/>
+        <button onclick="login()">login</button>
+        <div class="success" id="success-msg"></div>
+    </div>
+    <script>
+        function login(e) {
+            var userName = document.getElementById("uname").value
+            var password = document.getElementById("password").value
+            console.log(userName, password)
+            if (userName && password) {
+                document.getElementById("success-msg").innerHTML = "Logged in successfully with :: " + userName
+            }
+        }
+    </script>
+</body>
+
+</html>
